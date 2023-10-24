@@ -1,2 +1,2 @@
 # neurodermsk
-Simple web
+Simple web for neurodermsk.
