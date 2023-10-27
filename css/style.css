@@ -663,8 +663,99 @@ ol {
 	padding-bottom: 70px;
 }
 
+.estetic-header {
+	padding: 15px;
+	text-align: center;
+}
+
+.cenik {
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+#service-name-white {
+	color: #ffffff;
+}
+
+#service-name-black {
+	color: #000;
+}
+
+.ul-service {
+	margin: 6px 0 0 0;
+	list-style: square;
+}
+
 .first-service {
 	background-color: #121c1d;
+	color: #ffffff;
+	padding: 15px;
+}
+
+.first-service p {
+	color: #ffffff;
+}
+
+.second-service {
+	padding: 15px;
+}
+
+.second-service ul {
+	color: #121c1d;
+}
+
+.third-service {
+	background-color: #121c1d;
+	padding: 15px;
+}
+
+.third-service p,
+ul {
+	color: #ffffff;
+}
+
+.fourth-service {
+	padding: 15px;
+}
+
+.fourth-service ul {
+	color: #121c1d;
+}
+
+.fifth-service {
+	background-color: #121c1d;
+	padding: 15px;
+}
+
+.fifth-service p,
+ul {
+	color: #ffffff;
+}
+
+.sixth-service {
+	padding: 15px;
+}
+
+.sixth-service ul {
+	color: #121c1d;
+}
+
+.seventh-service {
+	background-color: #121c1d;
+	padding: 15px;
+}
+
+.seventh-service p,
+ul {
+	color: #ffffff;
+}
+
+.eighth-service {
+	padding: 15px;
+}
+
+.eighth-service ul {
+	color: #121c1d;
 }
 
 .services .section-title span {
