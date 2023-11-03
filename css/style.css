@@ -663,14 +663,28 @@ ol {
 	padding-bottom: 70px;
 }
 
+.neuro-header {
+	padding: 15px;
+	text-align: center;
+}
+
 .estetic-header {
 	padding: 15px;
 	text-align: center;
 }
 
 .cenik {
-	padding: 15px;
+	padding-bottom: 1.5rem;
+	padding-top: 1.5rem;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: auto;
+	margin-left: 12.5%;
 	text-transform: uppercase;
+}
+
+.cenik-under {
+	padding: 8px;
 }
 
 #service-name-white {
@@ -689,7 +703,27 @@ ol {
 .first-service {
 	background-color: #121c1d;
 	color: #ffffff;
+	padding: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: 12.5%;
+	margin-right: auto;
+}
+
+.first-service ul {
+	margin-left: 1%;
+	margin-right: auto;
+}
+
+.service-black-container {
+	background-color: #121c1d;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.carousel {
 	padding: 15px;
+	margin-right: 10%;
 }
 
 .first-service p {
@@ -868,12 +902,12 @@ ul {
 .neuroderm-gallery img {
 	width: 100%;
 	height: auto;
+	border-radius: 2.5px;
 }
 
 .desc {
-	padding: 50px;
+	padding: 40px;
 	box-sizing: border-box;
-	border-radius: 3px;
 }
 
 .gallery__container {
@@ -2741,7 +2775,7 @@ ul {
 
 	.welcome {
 		margin: none;
-		width: 90%;
+		width: 95%;
 		padding: 30px;
 	}
 
@@ -2757,10 +2791,17 @@ ul {
 /* Wide Mobile = 480px */
 
 @media only screen and (max-width: 767px) {
+	.neuroderm-gallery {
+		flex-flow: column;
+		flex-wrap: nowrap;
+		justify-content: unset;
+	}
+
 	.welcome {
 		margin: auto;
-		width: 74%;
+		width: 100%;
 		padding: 25px;
+		padding-left: 20px;
 	}
 
 	.header__logo {
@@ -3041,6 +3082,11 @@ ul {
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+	.neuroderm-gallery {
+		flex-flow: column;
+		flex-wrap: nowrap;
+		justify-content: unset;
+	}
 
 	.hero__text h2 {
 		font-size: 34px;
@@ -3100,7 +3146,7 @@ ul {
 
 	.welcome {
 		margin: none;
-		width: 100%;
+		width: 98%;
 		padding: 20px;
 	}
 

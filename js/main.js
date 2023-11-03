@@ -58,8 +58,8 @@
     });
 
     /*------------------
-		Navigation
-	--------------------*/
+        Navigation
+    --------------------*/
     $(".header__menu").slicknav({
         prependTo: '#mobile-menu-wrap',
         allowParentLinks: true,
@@ -87,10 +87,10 @@
             }
         }
     });
-    
+
     /*------------------
-		Magnific
-	--------------------*/
+        Magnific
+    --------------------*/
     $('.video-popup').magnificPopup({
         type: 'iframe'
     });
@@ -100,13 +100,13 @@
     });
 
     /*-------------------
-		Nice Select
-	--------------------- */
+        Nice Select
+    --------------------- */
     $("select").niceSelect();
 
     /*-------------------
-		Datepicker
-	--------------------- */
+        Datepicker
+    --------------------- */
     $(".datepicker").datepicker({
         minDate: 0
     });
